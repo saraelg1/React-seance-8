@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f7f6f1; color: #102c38; font-family: Arial, sans-serif; padding: 24px; }
+#root { width: 100%; max-width: 1120px; margin: auto; }
+.entete { padding: 12px 0 25px; }
+.sur-titre { text-transform: uppercase; color: #087f75; font-weight: bold; font-size: 0.85rem; }
+h1 { font-size: 2.2rem; margin: 12px 0; }
+h2 { color: #087f75; font-size: 1.4rem; margin-top: 0; }
+p { line-height: 1.5; }
+.panneau,.fiche { background: white; padding: 22px; border-radius: 10px; margin-bottom: 20px; border: 1px solid #dce7e3; }
+.fiche { border-top: 5px solid #087f75; margin-bottom: 0; }
+.fiche.choisie { outline: 3px solid #087f75; }
+.catalogue { display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 15px; }
+.barre-catalogue { display:flex; align-items:center; justify-content:space-between; gap:16px; margin: 30px 0 16px; }
+button { font: inherit; padding: 9px 12px; margin: 4px 4px 4px 0; cursor: pointer; border-radius: 5px; border: 1px solid #087f75; background: white; color: #075c55; }
+button:hover:not(:disabled) { background: #e8f4f1; }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+button.primaire { background: #087f75; color: white; }
+form { display: flex; flex-direction: column; gap: 8px; max-width: 450px; }
+form input:not([type=checkbox]) { padding: 10px; font: inherit; border:1px solid #abc6c1; border-radius: 5px; margin-bottom: 8px; }
+.ligne-condition { display:flex; align-items:center; gap:8px; margin-bottom:8px; }
+.prix { font-weight: bold; }
+.libre,.succes { color: #087f75; }
+.occupe,.erreur { color: #a13d2d; }
+.erreur,.succes { margin: 4px 0; }
+.attente { color: #657677; background: #f5f8f7; border-radius: 5px; padding: 12px; }
+.reservation { border-top: 1px solid #dce7e3; padding: 10px 0; }
+.reservation input { padding: 8px; border: 1px solid #abc6c1; border-radius: 5px; }
+@media(max-width:600px){body{padding:12px}.barre-catalogue{align-items:flex-start;flex-direction:column}}

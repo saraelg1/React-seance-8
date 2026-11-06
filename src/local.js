@@ -1,0 +1,26 @@
+export const local = { nom: "Local 123", capacite: 50, prix: 150, disponible: false };
+export const local2 = { nom: "Local 345", capacite: 50, prix: 150, disponible: true };
+export const local3 = { nom: "Local 987", capacite: 50, prix: 150, disponible: false };
+export const test = 5;
+export const locaux = [
+  { id: 1, nom: "Salle XYZ", capacite: 50, prix: 150, disponible: false },
+  { id: 2, nom: "Bureau Atlas", capacite: 8, prix: 80, disponible: true },
+  { id: 3, nom: "Salle Horizon", capacite: 20, prix: 200, disponible: true },
+  { id: 4, nom: "Bureau Oasis", capacite: 4, prix: 60, disponible: true },
+  { id: 5, nom: "Salle Casablanca", capacite: 100, prix: 500, disponible: false },
+  { id: 6, nom: "Studio Lumière", capacite: 6, prix: 120, disponible: true },
+  { id: 7, nom: "Salle Marrakech", capacite: 30, prix: 250, disponible: false },
+  { id: 8, nom: "Bureau Safir", capacite: 2, prix: 40, disponible: true },
+  { id: 9, nom: "Espace Créatif", capacite: 15, prix: 180, disponible: true },
+  { id: 10, nom: "Salle Tanger", capacite: 40, prix: 300, disponible: false },
+  { id: 11, nom: "Bureau Émeraude", capacite: 10, prix: 100, disponible: false },
+  { id: 12, nom: "Salle Rabat", capacite: 25, prix: 220, disponible: true },
+  { id: 13, nom: "Atelier Innovation", capacite: 12, prix: 160, disponible: true },
+  { id: 14, nom: "Salle Agadir", capacite: 60, prix: 350, disponible: false },
+  { id: 15, nom: "Bureau Jasmin", capacite: 3, prix: 50, disponible: true },
+  { id: 16, nom: "Espace Coworking", capacite: 35, prix: 280, disponible: true },
+  { id: 17, nom: "Salle Fès", capacite: 80, prix: 450, disponible: false },
+  { id: 18, nom: "Studio Sonore", capacite: 5, prix: 140, disponible: false },
+  { id: 19, nom: "Salle Conférence", capacite: 150, prix: 700, disponible: true },
+  { id: 20, nom: "Bureau Panorama", capacite: 7, prix: 90, disponible: true },
+];

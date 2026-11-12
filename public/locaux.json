@@ -1,22 +1,1402 @@
 [
-  { "id": 1, "nom": "Salle ABCD", "capacite": 50, "prix": 150, "disponible": false },
-  { "id": 2, "nom": "Bureau Atlas", "capacite": 8, "prix": 80, "disponible": true },
-  { "id": 3, "nom": "Salle Horizon", "capacite": 20, "prix": 200, "disponible": true },
-  { "id": 4, "nom": "Bureau Oasis", "capacite": 4, "prix": 60, "disponible": true },
-  { "id": 5, "nom": "Salle Casablanca", "capacite": 100, "prix": 500, "disponible": false },
-  { "id": 6, "nom": "Studio Lumière", "capacite": 6, "prix": 120, "disponible": true },
-  { "id": 7, "nom": "Salle Marrakech", "capacite": 30, "prix": 250, "disponible": false },
-  { "id": 8, "nom": "Bureau Safir", "capacite": 2, "prix": 40, "disponible": true },
-  { "id": 9, "nom": "Espace Créatif", "capacite": 15, "prix": 180, "disponible": true },
-  { "id": 10, "nom": "Salle Tanger", "capacite": 40, "prix": 300, "disponible": false },
-  { "id": 11, "nom": "Bureau Émeraude", "capacite": 10, "prix": 100, "disponible": false },
-  { "id": 12, "nom": "Salle Rabat", "capacite": 25, "prix": 220, "disponible": true },
-  { "id": 13, "nom": "Atelier Innovation", "capacite": 12, "prix": 160, "disponible": true },
-  { "id": 14, "nom": "Salle Agadir", "capacite": 60, "prix": 350, "disponible": false },
-  { "id": 15, "nom": "Bureau Jasmin", "capacite": 3, "prix": 50, "disponible": true },
-  { "id": 16, "nom": "Espace Coworking", "capacite": 35, "prix": 280, "disponible": true },
-  { "id": 17, "nom": "Salle Fès", "capacite": 80, "prix": 450, "disponible": false },
-  { "id": 18, "nom": "Studio Sonore", "capacite": 5, "prix": 140, "disponible": false },
-  { "id": 19, "nom": "Salle Conférence", "capacite": 150, "prix": 700, "disponible": true },
-  { "id": 20, "nom": "Bureau Panorama", "capacite": 7, "prix": 90, "disponible": true }
+  {
+    "id": 1,
+    "nom": "Salle ABCD",
+    "capacite": 50,
+    "prix": 150,
+    "disponible": false
+  },
+  {
+    "id": 2,
+    "nom": "Bureau Atlas",
+    "capacite": 8,
+    "prix": 80,
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "nom": "Salle Horizon",
+    "capacite": 20,
+    "prix": 200,
+    "disponible": true
+  },
+  {
+    "id": 4,
+    "nom": "Bureau Oasis",
+    "capacite": 4,
+    "prix": 60,
+    "disponible": true
+  },
+  {
+    "id": 5,
+    "nom": "Salle Casablanca",
+    "capacite": 100,
+    "prix": 500,
+    "disponible": false
+  },
+  {
+    "id": 6,
+    "nom": "Studio Lumière",
+    "capacite": 6,
+    "prix": 120,
+    "disponible": true
+  },
+  {
+    "id": 7,
+    "nom": "Salle Marrakech",
+    "capacite": 30,
+    "prix": 250,
+    "disponible": false
+  },
+  {
+    "id": 8,
+    "nom": "Bureau Safir",
+    "capacite": 2,
+    "prix": 40,
+    "disponible": true
+  },
+  {
+    "id": 9,
+    "nom": "Espace Créatif",
+    "capacite": 15,
+    "prix": 180,
+    "disponible": true
+  },
+  {
+    "id": 10,
+    "nom": "Salle Tanger",
+    "capacite": 40,
+    "prix": 300,
+    "disponible": false
+  },
+  {
+    "id": 11,
+    "nom": "Bureau Émeraude",
+    "capacite": 10,
+    "prix": 100,
+    "disponible": false
+  },
+  {
+    "id": 12,
+    "nom": "Salle Rabat",
+    "capacite": 25,
+    "prix": 220,
+    "disponible": true
+  },
+  {
+    "id": 13,
+    "nom": "Atelier Innovation",
+    "capacite": 12,
+    "prix": 160,
+    "disponible": true
+  },
+  {
+    "id": 14,
+    "nom": "Salle Agadir",
+    "capacite": 60,
+    "prix": 350,
+    "disponible": false
+  },
+  {
+    "id": 15,
+    "nom": "Bureau Jasmin",
+    "capacite": 3,
+    "prix": 50,
+    "disponible": true
+  },
+  {
+    "id": 16,
+    "nom": "Espace Coworking",
+    "capacite": 35,
+    "prix": 280,
+    "disponible": true
+  },
+  {
+    "id": 17,
+    "nom": "Salle Fès",
+    "capacite": 80,
+    "prix": 450,
+    "disponible": false
+  },
+  {
+    "id": 18,
+    "nom": "Studio Sonore",
+    "capacite": 5,
+    "prix": 140,
+    "disponible": false
+  },
+  {
+    "id": 19,
+    "nom": "Salle Conférence",
+    "capacite": 150,
+    "prix": 700,
+    "disponible": true
+  },
+  {
+    "id": 20,
+    "nom": "Bureau Panorama",
+    "capacite": 7,
+    "prix": 90,
+    "disponible": true
+  },
+  {
+    "id": 21,
+    "nom": "Salle Atlas 021",
+    "capacite": 23,
+    "prix": 190,
+    "disponible": true
+  },
+  {
+    "id": 22,
+    "nom": "Bureau Rabat 022",
+    "capacite": 12,
+    "prix": 70,
+    "disponible": true
+  },
+  {
+    "id": 23,
+    "nom": "Studio Marrakech 023",
+    "capacite": 16,
+    "prix": 120,
+    "disponible": false
+  },
+  {
+    "id": 24,
+    "nom": "Espace Tanger 024",
+    "capacite": 18,
+    "prix": 230,
+    "disponible": false
+  },
+  {
+    "id": 25,
+    "nom": "Atelier Agadir 025",
+    "capacite": 18,
+    "prix": 145,
+    "disponible": true
+  },
+  {
+    "id": 26,
+    "nom": "Salle de réunion Fès 026",
+    "capacite": 9,
+    "prix": 160,
+    "disponible": true
+  },
+  {
+    "id": 27,
+    "nom": "Espace coworking Meknès 027",
+    "capacite": 23,
+    "prix": 220,
+    "disponible": true
+  },
+  {
+    "id": 28,
+    "nom": "Salle Essaouira 028",
+    "capacite": 27,
+    "prix": 130,
+    "disponible": true
+  },
+  {
+    "id": 29,
+    "nom": "Bureau Oujda 029",
+    "capacite": 9,
+    "prix": 50,
+    "disponible": true
+  },
+  {
+    "id": 30,
+    "nom": "Studio Tétouan 030",
+    "capacite": 15,
+    "prix": 110,
+    "disponible": false
+  },
+  {
+    "id": 31,
+    "nom": "Espace Kénitra 031",
+    "capacite": 23,
+    "prix": 190,
+    "disponible": true
+  },
+  {
+    "id": 32,
+    "nom": "Atelier Salé 032",
+    "capacite": 18,
+    "prix": 145,
+    "disponible": false
+  },
+  {
+    "id": 33,
+    "nom": "Salle de réunion Safi 033",
+    "capacite": 20,
+    "prix": 180,
+    "disponible": false
+  },
+  {
+    "id": 34,
+    "nom": "Espace coworking Nador 034",
+    "capacite": 34,
+    "prix": 220,
+    "disponible": false
+  },
+  {
+    "id": 35,
+    "nom": "Salle Ifrane 035",
+    "capacite": 20,
+    "prix": 180,
+    "disponible": true
+  },
+  {
+    "id": 36,
+    "nom": "Bureau Oasis 036",
+    "capacite": 13,
+    "prix": 60,
+    "disponible": true
+  },
+  {
+    "id": 37,
+    "nom": "Studio Palmeraie 037",
+    "capacite": 9,
+    "prix": 150,
+    "disponible": true
+  },
+  {
+    "id": 38,
+    "nom": "Espace Kasbah 038",
+    "capacite": 14,
+    "prix": 220,
+    "disponible": true
+  },
+  {
+    "id": 39,
+    "nom": "Atelier Horizon 039",
+    "capacite": 22,
+    "prix": 175,
+    "disponible": true
+  },
+  {
+    "id": 40,
+    "nom": "Salle de réunion Andalous 040",
+    "capacite": 8,
+    "prix": 170,
+    "disponible": false
+  },
+  {
+    "id": 41,
+    "nom": "Espace coworking Zellige 041",
+    "capacite": 29,
+    "prix": 200,
+    "disponible": true
+  },
+  {
+    "id": 42,
+    "nom": "Salle Jasmin 042",
+    "capacite": 29,
+    "prix": 150,
+    "disponible": true
+  },
+  {
+    "id": 43,
+    "nom": "Bureau Amal 043",
+    "capacite": 5,
+    "prix": 100,
+    "disponible": false
+  },
+  {
+    "id": 44,
+    "nom": "Studio Médina 044",
+    "capacite": 16,
+    "prix": 150,
+    "disponible": true
+  },
+  {
+    "id": 45,
+    "nom": "Espace Massira 045",
+    "capacite": 23,
+    "prix": 210,
+    "disponible": true
+  },
+  {
+    "id": 46,
+    "nom": "Atelier Anfa 046",
+    "capacite": 14,
+    "prix": 195,
+    "disponible": true
+  },
+  {
+    "id": 47,
+    "nom": "Salle de réunion Lumière 047",
+    "capacite": 8,
+    "prix": 160,
+    "disponible": false
+  },
+  {
+    "id": 48,
+    "nom": "Espace coworking Atlas 048",
+    "capacite": 34,
+    "prix": 210,
+    "disponible": false
+  },
+  {
+    "id": 49,
+    "nom": "Salle Rabat 049",
+    "capacite": 29,
+    "prix": 130,
+    "disponible": true
+  },
+  {
+    "id": 50,
+    "nom": "Bureau Marrakech 050",
+    "capacite": 5,
+    "prix": 60,
+    "disponible": true
+  },
+  {
+    "id": 51,
+    "nom": "Studio Tanger 051",
+    "capacite": 5,
+    "prix": 160,
+    "disponible": false
+  },
+  {
+    "id": 52,
+    "nom": "Espace Agadir 052",
+    "capacite": 21,
+    "prix": 210,
+    "disponible": false
+  },
+  {
+    "id": 53,
+    "nom": "Atelier Fès 053",
+    "capacite": 12,
+    "prix": 155,
+    "disponible": true
+  },
+  {
+    "id": 54,
+    "nom": "Salle de réunion Meknès 054",
+    "capacite": 13,
+    "prix": 110,
+    "disponible": true
+  },
+  {
+    "id": 55,
+    "nom": "Espace coworking Essaouira 055",
+    "capacite": 25,
+    "prix": 190,
+    "disponible": true
+  },
+  {
+    "id": 56,
+    "nom": "Salle Oujda 056",
+    "capacite": 28,
+    "prix": 130,
+    "disponible": false
+  },
+  {
+    "id": 57,
+    "nom": "Bureau Tétouan 057",
+    "capacite": 11,
+    "prix": 120,
+    "disponible": true
+  },
+  {
+    "id": 58,
+    "nom": "Studio Kénitra 058",
+    "capacite": 13,
+    "prix": 120,
+    "disponible": false
+  },
+  {
+    "id": 59,
+    "nom": "Espace Salé 059",
+    "capacite": 18,
+    "prix": 180,
+    "disponible": true
+  },
+  {
+    "id": 60,
+    "nom": "Atelier Safi 060",
+    "capacite": 20,
+    "prix": 175,
+    "disponible": true
+  },
+  {
+    "id": 61,
+    "nom": "Salle de réunion Nador 061",
+    "capacite": 15,
+    "prix": 160,
+    "disponible": false
+  },
+  {
+    "id": 62,
+    "nom": "Espace coworking Ifrane 062",
+    "capacite": 25,
+    "prix": 220,
+    "disponible": false
+  },
+  {
+    "id": 63,
+    "nom": "Salle Oasis 063",
+    "capacite": 21,
+    "prix": 190,
+    "disponible": true
+  },
+  {
+    "id": 64,
+    "nom": "Bureau Palmeraie 064",
+    "capacite": 8,
+    "prix": 100,
+    "disponible": false
+  },
+  {
+    "id": 65,
+    "nom": "Studio Kasbah 065",
+    "capacite": 6,
+    "prix": 100,
+    "disponible": true
+  },
+  {
+    "id": 66,
+    "nom": "Espace Horizon 066",
+    "capacite": 22,
+    "prix": 160,
+    "disponible": true
+  },
+  {
+    "id": 67,
+    "nom": "Atelier Andalous 067",
+    "capacite": 16,
+    "prix": 185,
+    "disponible": false
+  },
+  {
+    "id": 68,
+    "nom": "Salle de réunion Zellige 068",
+    "capacite": 16,
+    "prix": 150,
+    "disponible": false
+  },
+  {
+    "id": 69,
+    "nom": "Espace coworking Jasmin 069",
+    "capacite": 34,
+    "prix": 230,
+    "disponible": true
+  },
+  {
+    "id": 70,
+    "nom": "Salle Amal 070",
+    "capacite": 27,
+    "prix": 130,
+    "disponible": true
+  },
+  {
+    "id": 71,
+    "nom": "Bureau Médina 071",
+    "capacite": 8,
+    "prix": 80,
+    "disponible": true
+  },
+  {
+    "id": 72,
+    "nom": "Studio Massira 072",
+    "capacite": 10,
+    "prix": 160,
+    "disponible": true
+  },
+  {
+    "id": 73,
+    "nom": "Espace Anfa 073",
+    "capacite": 12,
+    "prix": 180,
+    "disponible": false
+  },
+  {
+    "id": 74,
+    "nom": "Atelier Lumière 074",
+    "capacite": 17,
+    "prix": 155,
+    "disponible": false
+  },
+  {
+    "id": 75,
+    "nom": "Salle de réunion Atlas 075",
+    "capacite": 15,
+    "prix": 150,
+    "disponible": true
+  },
+  {
+    "id": 76,
+    "nom": "Espace coworking Rabat 076",
+    "capacite": 25,
+    "prix": 230,
+    "disponible": true
+  },
+  {
+    "id": 77,
+    "nom": "Salle Marrakech 077",
+    "capacite": 22,
+    "prix": 160,
+    "disponible": true
+  },
+  {
+    "id": 78,
+    "nom": "Bureau Tanger 078",
+    "capacite": 12,
+    "prix": 90,
+    "disponible": true
+  },
+  {
+    "id": 79,
+    "nom": "Studio Agadir 079",
+    "capacite": 13,
+    "prix": 140,
+    "disponible": true
+  },
+  {
+    "id": 80,
+    "nom": "Espace Fès 080",
+    "capacite": 17,
+    "prix": 200,
+    "disponible": true
+  },
+  {
+    "id": 81,
+    "nom": "Atelier Meknès 081",
+    "capacite": 12,
+    "prix": 135,
+    "disponible": false
+  },
+  {
+    "id": 82,
+    "nom": "Salle de réunion Essaouira 082",
+    "capacite": 13,
+    "prix": 160,
+    "disponible": true
+  },
+  {
+    "id": 83,
+    "nom": "Espace coworking Oujda 083",
+    "capacite": 23,
+    "prix": 190,
+    "disponible": true
+  },
+  {
+    "id": 84,
+    "nom": "Salle Tétouan 084",
+    "capacite": 19,
+    "prix": 190,
+    "disponible": false
+  },
+  {
+    "id": 85,
+    "nom": "Bureau Kénitra 085",
+    "capacite": 9,
+    "prix": 90,
+    "disponible": true
+  },
+  {
+    "id": 86,
+    "nom": "Studio Salé 086",
+    "capacite": 12,
+    "prix": 160,
+    "disponible": true
+  },
+  {
+    "id": 87,
+    "nom": "Espace Safi 087",
+    "capacite": 23,
+    "prix": 210,
+    "disponible": true
+  },
+  {
+    "id": 88,
+    "nom": "Atelier Nador 088",
+    "capacite": 13,
+    "prix": 185,
+    "disponible": true
+  },
+  {
+    "id": 89,
+    "nom": "Salle de réunion Ifrane 089",
+    "capacite": 10,
+    "prix": 130,
+    "disponible": true
+  },
+  {
+    "id": 90,
+    "nom": "Espace coworking Oasis 090",
+    "capacite": 24,
+    "prix": 210,
+    "disponible": true
+  },
+  {
+    "id": 91,
+    "nom": "Salle Palmeraie 091",
+    "capacite": 21,
+    "prix": 140,
+    "disponible": true
+  },
+  {
+    "id": 92,
+    "nom": "Bureau Kasbah 092",
+    "capacite": 5,
+    "prix": 50,
+    "disponible": true
+  },
+  {
+    "id": 93,
+    "nom": "Studio Horizon 093",
+    "capacite": 8,
+    "prix": 150,
+    "disponible": true
+  },
+  {
+    "id": 94,
+    "nom": "Espace Andalous 094",
+    "capacite": 12,
+    "prix": 180,
+    "disponible": false
+  },
+  {
+    "id": 95,
+    "nom": "Atelier Zellige 095",
+    "capacite": 12,
+    "prix": 165,
+    "disponible": false
+  },
+  {
+    "id": 96,
+    "nom": "Salle de réunion Jasmin 096",
+    "capacite": 13,
+    "prix": 110,
+    "disponible": true
+  },
+  {
+    "id": 97,
+    "nom": "Espace coworking Amal 097",
+    "capacite": 31,
+    "prix": 190,
+    "disponible": true
+  },
+  {
+    "id": 98,
+    "nom": "Salle Médina 098",
+    "capacite": 20,
+    "prix": 150,
+    "disponible": true
+  },
+  {
+    "id": 99,
+    "nom": "Bureau Massira 099",
+    "capacite": 2,
+    "prix": 100,
+    "disponible": false
+  },
+  {
+    "id": 100,
+    "nom": "Studio Anfa 100",
+    "capacite": 7,
+    "prix": 100,
+    "disponible": true
+  },
+  {
+    "id": 101,
+    "nom": "Espace Lumière 101",
+    "capacite": 16,
+    "prix": 160,
+    "disponible": false
+  },
+  {
+    "id": 102,
+    "nom": "Atelier Atlas 102",
+    "capacite": 13,
+    "prix": 165,
+    "disponible": true
+  },
+  {
+    "id": 103,
+    "nom": "Salle de réunion Rabat 103",
+    "capacite": 13,
+    "prix": 160,
+    "disponible": false
+  },
+  {
+    "id": 104,
+    "nom": "Espace coworking Marrakech 104",
+    "capacite": 30,
+    "prix": 190,
+    "disponible": true
+  },
+  {
+    "id": 105,
+    "nom": "Salle Tanger 105",
+    "capacite": 23,
+    "prix": 130,
+    "disponible": true
+  },
+  {
+    "id": 106,
+    "nom": "Bureau Agadir 106",
+    "capacite": 7,
+    "prix": 80,
+    "disponible": true
+  },
+  {
+    "id": 107,
+    "nom": "Studio Fès 107",
+    "capacite": 10,
+    "prix": 130,
+    "disponible": true
+  },
+  {
+    "id": 108,
+    "nom": "Espace Meknès 108",
+    "capacite": 19,
+    "prix": 200,
+    "disponible": true
+  },
+  {
+    "id": 109,
+    "nom": "Atelier Essaouira 109",
+    "capacite": 17,
+    "prix": 175,
+    "disponible": true
+  },
+  {
+    "id": 110,
+    "nom": "Salle de réunion Oujda 110",
+    "capacite": 16,
+    "prix": 170,
+    "disponible": true
+  },
+  {
+    "id": 111,
+    "nom": "Espace coworking Tétouan 111",
+    "capacite": 22,
+    "prix": 190,
+    "disponible": true
+  },
+  {
+    "id": 112,
+    "nom": "Salle Kénitra 112",
+    "capacite": 25,
+    "prix": 170,
+    "disponible": true
+  },
+  {
+    "id": 113,
+    "nom": "Bureau Salé 113",
+    "capacite": 11,
+    "prix": 100,
+    "disponible": false
+  },
+  {
+    "id": 114,
+    "nom": "Studio Safi 114",
+    "capacite": 11,
+    "prix": 160,
+    "disponible": true
+  },
+  {
+    "id": 115,
+    "nom": "Espace Nador 115",
+    "capacite": 24,
+    "prix": 170,
+    "disponible": false
+  },
+  {
+    "id": 116,
+    "nom": "Atelier Ifrane 116",
+    "capacite": 16,
+    "prix": 135,
+    "disponible": false
+  },
+  {
+    "id": 117,
+    "nom": "Salle de réunion Oasis 117",
+    "capacite": 19,
+    "prix": 160,
+    "disponible": true
+  },
+  {
+    "id": 118,
+    "nom": "Espace coworking Palmeraie 118",
+    "capacite": 23,
+    "prix": 240,
+    "disponible": true
+  },
+  {
+    "id": 119,
+    "nom": "Salle Kasbah 119",
+    "capacite": 24,
+    "prix": 120,
+    "disponible": true
+  },
+  {
+    "id": 120,
+    "nom": "Bureau Horizon 120",
+    "capacite": 12,
+    "prix": 110,
+    "disponible": true
+  },
+  {
+    "id": 121,
+    "nom": "Studio Andalous 121",
+    "capacite": 14,
+    "prix": 130,
+    "disponible": true
+  },
+  {
+    "id": 122,
+    "nom": "Espace Zellige 122",
+    "capacite": 23,
+    "prix": 200,
+    "disponible": true
+  },
+  {
+    "id": 123,
+    "nom": "Atelier Jasmin 123",
+    "capacite": 12,
+    "prix": 155,
+    "disponible": true
+  },
+  {
+    "id": 124,
+    "nom": "Salle de réunion Amal 124",
+    "capacite": 20,
+    "prix": 110,
+    "disponible": true
+  },
+  {
+    "id": 125,
+    "nom": "Espace coworking Médina 125",
+    "capacite": 24,
+    "prix": 220,
+    "disponible": true
+  },
+  {
+    "id": 126,
+    "nom": "Salle Massira 126",
+    "capacite": 30,
+    "prix": 160,
+    "disponible": true
+  },
+  {
+    "id": 127,
+    "nom": "Bureau Anfa 127",
+    "capacite": 11,
+    "prix": 60,
+    "disponible": true
+  },
+  {
+    "id": 128,
+    "nom": "Studio Lumière 128",
+    "capacite": 8,
+    "prix": 90,
+    "disponible": true
+  },
+  {
+    "id": 129,
+    "nom": "Espace Atlas 129",
+    "capacite": 13,
+    "prix": 220,
+    "disponible": true
+  },
+  {
+    "id": 130,
+    "nom": "Atelier Rabat 130",
+    "capacite": 22,
+    "prix": 155,
+    "disponible": false
+  },
+  {
+    "id": 131,
+    "nom": "Salle de réunion Marrakech 131",
+    "capacite": 18,
+    "prix": 140,
+    "disponible": false
+  },
+  {
+    "id": 132,
+    "nom": "Espace coworking Tanger 132",
+    "capacite": 34,
+    "prix": 220,
+    "disponible": true
+  },
+  {
+    "id": 133,
+    "nom": "Salle Agadir 133",
+    "capacite": 25,
+    "prix": 190,
+    "disponible": true
+  },
+  {
+    "id": 134,
+    "nom": "Bureau Fès 134",
+    "capacite": 11,
+    "prix": 80,
+    "disponible": true
+  },
+  {
+    "id": 135,
+    "nom": "Studio Meknès 135",
+    "capacite": 8,
+    "prix": 160,
+    "disponible": false
+  },
+  {
+    "id": 136,
+    "nom": "Espace Essaouira 136",
+    "capacite": 14,
+    "prix": 190,
+    "disponible": true
+  },
+  {
+    "id": 137,
+    "nom": "Atelier Oujda 137",
+    "capacite": 15,
+    "prix": 185,
+    "disponible": true
+  },
+  {
+    "id": 138,
+    "nom": "Salle de réunion Tétouan 138",
+    "capacite": 18,
+    "prix": 130,
+    "disponible": true
+  },
+  {
+    "id": 139,
+    "nom": "Espace coworking Kénitra 139",
+    "capacite": 26,
+    "prix": 200,
+    "disponible": false
+  },
+  {
+    "id": 140,
+    "nom": "Salle Salé 140",
+    "capacite": 26,
+    "prix": 120,
+    "disponible": false
+  },
+  {
+    "id": 141,
+    "nom": "Bureau Safi 141",
+    "capacite": 10,
+    "prix": 60,
+    "disponible": true
+  },
+  {
+    "id": 142,
+    "nom": "Studio Nador 142",
+    "capacite": 5,
+    "prix": 120,
+    "disponible": true
+  },
+  {
+    "id": 143,
+    "nom": "Espace Ifrane 143",
+    "capacite": 13,
+    "prix": 200,
+    "disponible": true
+  },
+  {
+    "id": 144,
+    "nom": "Atelier Oasis 144",
+    "capacite": 15,
+    "prix": 135,
+    "disponible": false
+  },
+  {
+    "id": 145,
+    "nom": "Salle de réunion Palmeraie 145",
+    "capacite": 14,
+    "prix": 140,
+    "disponible": true
+  },
+  {
+    "id": 146,
+    "nom": "Espace coworking Kasbah 146",
+    "capacite": 23,
+    "prix": 240,
+    "disponible": true
+  },
+  {
+    "id": 147,
+    "nom": "Salle Horizon 147",
+    "capacite": 19,
+    "prix": 140,
+    "disponible": false
+  },
+  {
+    "id": 148,
+    "nom": "Bureau Andalous 148",
+    "capacite": 13,
+    "prix": 70,
+    "disponible": true
+  },
+  {
+    "id": 149,
+    "nom": "Studio Zellige 149",
+    "capacite": 6,
+    "prix": 130,
+    "disponible": true
+  },
+  {
+    "id": 150,
+    "nom": "Espace Jasmin 150",
+    "capacite": 20,
+    "prix": 160,
+    "disponible": true
+  },
+  {
+    "id": 151,
+    "nom": "Atelier Amal 151",
+    "capacite": 22,
+    "prix": 165,
+    "disponible": true
+  },
+  {
+    "id": 152,
+    "nom": "Salle de réunion Médina 152",
+    "capacite": 9,
+    "prix": 150,
+    "disponible": true
+  },
+  {
+    "id": 153,
+    "nom": "Espace coworking Massira 153",
+    "capacite": 25,
+    "prix": 220,
+    "disponible": true
+  },
+  {
+    "id": 154,
+    "nom": "Salle Anfa 154",
+    "capacite": 19,
+    "prix": 170,
+    "disponible": true
+  },
+  {
+    "id": 155,
+    "nom": "Bureau Lumière 155",
+    "capacite": 7,
+    "prix": 50,
+    "disponible": true
+  },
+  {
+    "id": 156,
+    "nom": "Studio Atlas 156",
+    "capacite": 13,
+    "prix": 150,
+    "disponible": false
+  },
+  {
+    "id": 157,
+    "nom": "Espace Rabat 157",
+    "capacite": 13,
+    "prix": 160,
+    "disponible": false
+  },
+  {
+    "id": 158,
+    "nom": "Atelier Marrakech 158",
+    "capacite": 22,
+    "prix": 135,
+    "disponible": false
+  },
+  {
+    "id": 159,
+    "nom": "Salle de réunion Tanger 159",
+    "capacite": 15,
+    "prix": 140,
+    "disponible": false
+  },
+  {
+    "id": 160,
+    "nom": "Espace coworking Agadir 160",
+    "capacite": 28,
+    "prix": 190,
+    "disponible": true
+  },
+  {
+    "id": 161,
+    "nom": "Salle Fès 161",
+    "capacite": 30,
+    "prix": 120,
+    "disponible": false
+  },
+  {
+    "id": 162,
+    "nom": "Bureau Meknès 162",
+    "capacite": 12,
+    "prix": 60,
+    "disponible": false
+  },
+  {
+    "id": 163,
+    "nom": "Studio Essaouira 163",
+    "capacite": 15,
+    "prix": 120,
+    "disponible": false
+  },
+  {
+    "id": 164,
+    "nom": "Espace Oujda 164",
+    "capacite": 21,
+    "prix": 220,
+    "disponible": false
+  },
+  {
+    "id": 165,
+    "nom": "Atelier Tétouan 165",
+    "capacite": 12,
+    "prix": 195,
+    "disponible": false
+  },
+  {
+    "id": 166,
+    "nom": "Salle de réunion Kénitra 166",
+    "capacite": 8,
+    "prix": 130,
+    "disponible": true
+  },
+  {
+    "id": 167,
+    "nom": "Espace coworking Salé 167",
+    "capacite": 33,
+    "prix": 250,
+    "disponible": true
+  },
+  {
+    "id": 168,
+    "nom": "Salle Safi 168",
+    "capacite": 20,
+    "prix": 150,
+    "disponible": true
+  },
+  {
+    "id": 169,
+    "nom": "Bureau Nador 169",
+    "capacite": 4,
+    "prix": 70,
+    "disponible": false
+  },
+  {
+    "id": 170,
+    "nom": "Studio Ifrane 170",
+    "capacite": 15,
+    "prix": 100,
+    "disponible": false
+  },
+  {
+    "id": 171,
+    "nom": "Espace Oasis 171",
+    "capacite": 17,
+    "prix": 160,
+    "disponible": false
+  },
+  {
+    "id": 172,
+    "nom": "Atelier Palmeraie 172",
+    "capacite": 21,
+    "prix": 175,
+    "disponible": true
+  },
+  {
+    "id": 173,
+    "nom": "Salle de réunion Kasbah 173",
+    "capacite": 13,
+    "prix": 120,
+    "disponible": true
+  },
+  {
+    "id": 174,
+    "nom": "Espace coworking Horizon 174",
+    "capacite": 29,
+    "prix": 190,
+    "disponible": true
+  },
+  {
+    "id": 175,
+    "nom": "Salle Andalous 175",
+    "capacite": 27,
+    "prix": 140,
+    "disponible": false
+  },
+  {
+    "id": 176,
+    "nom": "Bureau Zellige 176",
+    "capacite": 11,
+    "prix": 60,
+    "disponible": true
+  },
+  {
+    "id": 177,
+    "nom": "Studio Jasmin 177",
+    "capacite": 10,
+    "prix": 130,
+    "disponible": false
+  },
+  {
+    "id": 178,
+    "nom": "Espace Amal 178",
+    "capacite": 21,
+    "prix": 180,
+    "disponible": true
+  },
+  {
+    "id": 179,
+    "nom": "Atelier Médina 179",
+    "capacite": 13,
+    "prix": 135,
+    "disponible": true
+  },
+  {
+    "id": 180,
+    "nom": "Salle de réunion Massira 180",
+    "capacite": 12,
+    "prix": 160,
+    "disponible": true
+  },
+  {
+    "id": 181,
+    "nom": "Espace coworking Anfa 181",
+    "capacite": 28,
+    "prix": 220,
+    "disponible": true
+  },
+  {
+    "id": 182,
+    "nom": "Salle Lumière 182",
+    "capacite": 24,
+    "prix": 140,
+    "disponible": true
+  },
+  {
+    "id": 183,
+    "nom": "Bureau Atlas 183",
+    "capacite": 10,
+    "prix": 80,
+    "disponible": false
+  },
+  {
+    "id": 184,
+    "nom": "Studio Rabat 184",
+    "capacite": 9,
+    "prix": 90,
+    "disponible": false
+  },
+  {
+    "id": 185,
+    "nom": "Espace Marrakech 185",
+    "capacite": 12,
+    "prix": 180,
+    "disponible": true
+  },
+  {
+    "id": 186,
+    "nom": "Atelier Tanger 186",
+    "capacite": 16,
+    "prix": 155,
+    "disponible": true
+  },
+  {
+    "id": 187,
+    "nom": "Salle de réunion Agadir 187",
+    "capacite": 9,
+    "prix": 130,
+    "disponible": true
+  },
+  {
+    "id": 188,
+    "nom": "Espace coworking Fès 188",
+    "capacite": 31,
+    "prix": 200,
+    "disponible": true
+  },
+  {
+    "id": 189,
+    "nom": "Salle Meknès 189",
+    "capacite": 20,
+    "prix": 120,
+    "disponible": true
+  },
+  {
+    "id": 190,
+    "nom": "Bureau Essaouira 190",
+    "capacite": 6,
+    "prix": 110,
+    "disponible": false
+  },
+  {
+    "id": 191,
+    "nom": "Studio Oujda 191",
+    "capacite": 7,
+    "prix": 130,
+    "disponible": true
+  },
+  {
+    "id": 192,
+    "nom": "Espace Tétouan 192",
+    "capacite": 23,
+    "prix": 210,
+    "disponible": true
+  },
+  {
+    "id": 193,
+    "nom": "Atelier Kénitra 193",
+    "capacite": 11,
+    "prix": 185,
+    "disponible": false
+  },
+  {
+    "id": 194,
+    "nom": "Salle de réunion Salé 194",
+    "capacite": 18,
+    "prix": 140,
+    "disponible": false
+  },
+  {
+    "id": 195,
+    "nom": "Espace coworking Safi 195",
+    "capacite": 24,
+    "prix": 230,
+    "disponible": true
+  },
+  {
+    "id": 196,
+    "nom": "Salle Nador 196",
+    "capacite": 22,
+    "prix": 160,
+    "disponible": false
+  },
+  {
+    "id": 197,
+    "nom": "Bureau Ifrane 197",
+    "capacite": 10,
+    "prix": 80,
+    "disponible": true
+  },
+  {
+    "id": 198,
+    "nom": "Studio Oasis 198",
+    "capacite": 4,
+    "prix": 160,
+    "disponible": true
+  },
+  {
+    "id": 199,
+    "nom": "Espace Palmeraie 199",
+    "capacite": 21,
+    "prix": 200,
+    "disponible": true
+  },
+  {
+    "id": 200,
+    "nom": "Atelier Kasbah 200",
+    "capacite": 21,
+    "prix": 145,
+    "disponible": true
+  }
 ]
